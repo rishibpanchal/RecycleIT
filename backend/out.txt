@@ -1,0 +1,7 @@
+               id  last_known_qty         lifecycle_label
+COLLECTION_SOURCE       150106.11     Collection / Inward
+      INV-B1001-1          494.91     Collection / Inward
+      INV-B1001-2          447.26   Segregation / Sorting
+      INV-B1001-3          427.41                 Washing
+      INV-B1001-4          411.34 Recycling / Granulation
+      INV-B1001-5          395.79                Dispatch

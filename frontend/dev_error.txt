@@ -1,0 +1,20 @@
+
+> my-project@0.1.0 dev D:\ENGINEERING\Hackathon\Hackniche 4\Hackniche\frontend
+> next dev
+
+⚠ Port 3000 is in use by process 19276, using available port 3001 instead.
+▲ Next.js 16.2.0 (Turbopack)
+- Local:         http://localhost:3001
+- Network:       http://10.120.105.18:3001
+- Environments: .env.local
+✓ Ready in 561ms
+⨯ Another next dev server is already running.
+
+- Local:        http://localhost:3000
+- PID:          19276
+- Dir:          D:\ENGINEERING\Hackathon\Hackniche 4\Hackniche\frontend
+- Log:          .next\dev\logs\next-development.log
+
+Run taskkill /PID 19276 /F to stop it.
+[?25h
+ ELIFECYCLE  Command failed with exit code 1.

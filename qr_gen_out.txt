@@ -1,0 +1,12 @@
+D:\Hackniche\backend\gen_qr_b1001.py:6: SyntaxWarning: invalid escape sequence '\H'
+  DB target: d:\Hackniche\traceability.db  (same path the API reads via ROOT_DIR)
+[DB] Using database: D:\Hackniche\traceability.db
+[DB] worker_attestations table ready.
+Traceback (most recent call last):
+  File "D:\Hackniche\backend\gen_qr_b1001.py", line 95, in <module>
+    print(f"\n\u2705  {batch_id}  [Stage {stage_num} û {stage_name}]")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 2: character maps to <undefined>

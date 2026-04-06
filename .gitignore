@@ -1,0 +1,13 @@
+.env
+.venv
+__pycache__/
+*.log
+*.db
+*.sqlite3
+node_modules/
+dist/
+.vscode/
+.idea/
+traceability.db
+traceability_report.json
+traceability_report_scenario_*.json
