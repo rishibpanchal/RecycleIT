@@ -21,8 +21,8 @@ The backend is built with FastAPI and runs with `uvicorn`. We use `uv` for depen
    - **Branch:** `main`
    - **Root Directory:** `backend`
    - **Runtime:** `Python`
-   - **Build Command:** `curl -LsSf https://astral.sh/uv/install.sh | sh && $HOME/.local/bin/uv sync`
-   - **Start Command:** `$HOME/.local/bin/uv run uvicorn app:app --host 0.0.0.0 --port $PORT`
+   - **Build Command:** `curl -LsSf https://astral.sh/uv/install.sh | sh && ~/.local/bin/uv sync`
+   - **Start Command:** `.venv/bin/uvicorn app:app --host 0.0.0.0 --port $PORT`
 5. Expand **Advanced** and add the following Environment Variable:
    - Key: `PYTHON_VERSION`, Value: `3.13.0`
 6. Click **Create Web Service**.
